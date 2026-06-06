@@ -1,2 +1,28 @@
 # TCC_Daniel_Sena_IEEE33
 Modelos OpenDSS, scripts Python e dados utilizados na avaliação dos impactos harmônicos da geração fotovoltaica em redes de distribuição utilizando o sistema IEEE 33 barras.
+## Autor
+
+Daniel Sousa de Sena
+
+Universidade Federal do Pará (UFPA)
+
+## Ferramentas
+
+- OpenDSS
+- Python - py_dss_interface
+
+## Sistema de estudo
+
+IEEE 33 barras modificado
+
+## Cenários
+
+- 100% (3 MW)
+- 120% (3,6 MW)
+- 150% (4,5 MW)
+
+## Referências
+
+PRODIST Módulo 8
+
+IEEE Std 519-2014
