@@ -16,6 +16,7 @@ Universidade Federal do Pará (UFPA)
 IEEE 33 barras modificado
 
 ## Cenários
+Os dados brutos completos da campanha de medição excedem 700 MB e não foram incluídos no repositório. O espectro efetivamente utilizado nas simulações encontra-se disponibilizado na pasta Dados_Experimentais.
 
 - 100% (3 MW)
 - 120% (3,6 MW)
