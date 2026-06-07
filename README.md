@@ -21,9 +21,3 @@ Os dados brutos completos da campanha de medição excedem 700 MB e não foram i
 - 100% (3 MW)
 - 120% (3,6 MW)
 - 150% (4,5 MW)
-
-## Referências
-
-PRODIST Módulo 8
-
-IEEE Std 519-2014
