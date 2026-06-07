@@ -1,0 +1,14 @@
+=== RESUMO - CASO BASE HARMÔNICO LIMPO (V6) ===
+Master utilizado: D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final\masterH_caso_base_minimo.dss
+Monitores planejados: 34
+Monitores exportados: 34
+Barras processadas: 32
+Cargas editadas com spectrum limpo: 33
+Exemplo de checagem (? Load.carga_1.spectrum): LoadClean
+THDv médio do sistema: 0.000000 %
+Maior THDv máximo: barra 20 = 0.000000 %
+
+Interpretação:
+- Caso base executado com fonte limpa e cargas explicitamente limpas via Python.
+- Esta mesma rotina deve ser mantida também nos cenários com PV, para garantir
+  que os harmônicos venham do PVSystem e não de emissão residual das cargas.

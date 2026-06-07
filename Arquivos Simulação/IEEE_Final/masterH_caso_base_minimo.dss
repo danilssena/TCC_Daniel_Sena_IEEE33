@@ -1,0 +1,49 @@
+Clear
+Set DefaultBaseFrequency=60
+
+! ============================================================================
+! MASTER HARMÔNICO MÍNIMO - CASO BASE LIMPO
+! IEEE 33 BARRAS
+!
+! Objetivo:
+! - montar o circuito do zero, sem herdar PVSystem, Spectrum de inversor
+!   ou Scenarios;
+! - manter apenas a rede base necessária para o caso base harmônico;
+! - usar fonte explicitamente limpa no domínio harmônico.
+! ============================================================================
+
+! --- DEFINIÇÃO DO CAMINHO ---
+Set DataPath="D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final"
+
+! --- DEFINIÇÃO DO CIRCUITO ---
+New circuit.IEEE33_bus phases=3 bus1=sourcebus basekv=69 pu=1.05
+
+! --- TRANSFORMADOR DA SUBESTAÇÃO ---
+New Transformer.SubXF Phases=3 Windings=2 Xhl=0.001
+~ wdg=1 bus=sourcebus conn=Delta kv=69    kva=3000   %r=0.0005
+~ wdg=2 bus=10       conn=wye   kv=13.8  kva=3000   %r=0.0005
+
+! --- REDE BASE ---
+Redirect "LineCodes.dss"
+Redirect "Loads.dss"
+
+! --- CONFIGURAÇÃO DE TENSÕES ---
+Set VoltageBases=[69, 13.8, 0.22]
+CalcVoltageBases
+
+! --- FONTE HARMÔNICA EXPLICITAMENTE LIMPA ---
+New Spectrum.FonteBaseLimpa NumHarm=8
+~ harmonic=(1 3 5 7 9 11 13 15)
+~ %mag=(100 0 0 0 0 0 0 0)
+~ angle=(0 0 0 0 0 0 0 0)
+
+Edit Vsource.Source spectrum=FonteBaseLimpa
+
+! --- CONFIGURAÇÃO NUMÉRICA ---
+Set Maxiterations=100
+Set MaxControlIter=100
+
+! --- SOLUÇÃO FUNDAMENTAL ---
+Set Mode=Snapshot
+Set ControlMode=Static
+Solve

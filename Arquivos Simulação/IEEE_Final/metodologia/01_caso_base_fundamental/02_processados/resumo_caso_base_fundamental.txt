@@ -1,0 +1,13 @@
+=== RESUMO - CASO BASE FUNDAMENTAL ===
+Barra raiz: 10
+Número de linhas: 32
+Número de barras avaliadas: 33
+Fluxo máximo por trecho: 3768.1334 kW
+Perda ativa total nas linhas: 102.8675 kW
+Tensão mínima (pu): 0.993030
+Tensão máxima (pu): 1.049500
+
+Validação esperada:
+- Convergência do fluxo de potência em Snapshot
+- Perfil de tensão coerente com a topologia radial
+- Perdas compatíveis com a rede-base

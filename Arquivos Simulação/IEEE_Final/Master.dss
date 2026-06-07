@@ -1,0 +1,36 @@
+Clear
+Set DefaultBaseFrequency=60
+
+! --- DEFINIÇÃO DO CAMINHO ---
+! Certifique-se de que todos os arquivos (.dss) estão nesta pasta
+Set DataPath="D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final"
+! --- DEFINIÇÃO DO CIRCUITO ---
+! Tensão na fonte (pu=1.05) para compensar quedas em sistemas radiais
+New circuit.IEEE33_bus phases=3 bus1=sourcebus basekv=69 pu=1.05 
+
+! --- TRANSFORMADOR DA SUBESTAÇÃO (Conforme PDF do Orientador) ---
+New Transformer.SubXF Phases=3 Windings=2 Xhl=0.001 
+~ wdg=1 bus=sourcebus conn=Delta kv=69    kva=3000   %r=0.0005
+~ wdg=2 bus=10       conn=wye   kv=13.8  kva=3000   %r=0.0005
+
+! --- CARREGAMENTO DOS MÓDULOS ---
+Redirect "LineCodes.dss"
+Redirect "Loads.dss"
+
+
+! --- CONFIGURAÇÃO DE TENSÕES ---
+Set VoltageBases=[69, 13.8, 0.22]
+
+New EnergyMeter.MedidorPrincipal element=Line.linha_1 terminal=1
+
+CalcVoltageBases
+
+BusCoords BusCoords.dss
+! --- EXECUÇÃO DO FLUXO DE CARGA ---
+Set Mode=Snapshot
+Solve
+
+! --- COMANDOS DE VISUALIZAÇÃO ---
+Show Voltages LN Nodes
+Show Currents Element
+Show Powers kVA Element

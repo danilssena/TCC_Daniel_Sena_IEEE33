@@ -1,0 +1,38 @@
+! =============================================================================
+! LOADS - SISTEMA IEEE 33 BARRAS
+! =============================================================================
+
+
+New load.carga_1  phases=3 model=1 bus=10  kv=13.8 kw=50      pf=1 
+New load.carga_2  phases=3 model=1 bus=20  kv=13.8 kw=50      pf=1 
+New load.carga_3  phases=3 model=1 bus=30  kv=13.8 kw=82.5    pf=1 
+New load.carga_4  phases=3 model=1 bus=40  kv=13.8 kw=82.5    pf=1 
+New load.carga_5  phases=3 model=1 bus=50  kv=13.8 kw=82.5    pf=1 
+New load.carga_6  phases=3 model=1 bus=60  kv=13.8 kw=82.5    pf=1 
+New load.carga_7  phases=3 model=1 bus=70  kv=13.8 kw=97.857  pf=1 
+New load.carga_8  phases=3 model=1 bus=80  kv=13.8 kw=97.857  pf=1 
+New load.carga_9  phases=3 model=1 bus=90  kv=13.8 kw=97.857  pf=1 
+New load.carga_10 phases=3 model=1 bus=100 kv=13.8 kw=97.857  pf=1 
+New load.carga_11 phases=3 model=1 bus=110 kv=13.8 kw=97.857  pf=1 
+New load.carga_12 phases=3 model=1 bus=120 kv=13.8 kw=97.857  pf=1 
+New load.carga_13 phases=3 model=1 bus=130 kv=13.8 kw=97.857  pf=1 
+New load.carga_14 phases=3 model=1 bus=140 kv=13.8 kw=78      pf=1 
+New load.carga_15 phases=3 model=1 bus=150 kv=13.8 kw=78      pf=1 
+New load.carga_16 phases=3 model=1 bus=160 kv=13.8 kw=78      pf=1 
+New load.carga_17 phases=3 model=1 bus=170 kv=13.8 kw=78      pf=1 
+New load.carga_18 phases=3 model=1 bus=180 kv=13.8 kw=78      pf=1 
+New load.carga_19 phases=3 model=1 bus=190 kv=13.8 kw=90      pf=1 
+New load.carga_20 phases=3 model=1 bus=200 kv=13.8 kw=90      pf=1 
+New load.carga_21 phases=3 model=1 bus=210 kv=13.8 kw=90      pf=1 
+New load.carga_22 phases=3 model=1 bus=220 kv=13.8 kw=90      pf=1 
+New load.carga_23 phases=3 model=1 bus=230 kv=13.8 kw=310     pf=1 
+New load.carga_24 phases=3 model=1 bus=240 kv=13.8 kw=310     pf=1 
+New load.carga_25 phases=3 model=1 bus=250 kv=13.8 kw=310     pf=1 
+New load.carga_26 phases=3 model=1 bus=260 kv=13.8 kw=115     pf=1 
+New load.carga_27 phases=3 model=1 bus=270 kv=13.8 kw=115     pf=1 
+New load.carga_28 phases=3 model=1 bus=280 kv=13.8 kw=115     pf=1 
+New load.carga_29 phases=3 model=1 bus=290 kv=13.8 kw=115     pf=1 
+New load.carga_30 phases=3 model=1 bus=300 kv=13.8 kw=115     pf=1 
+New load.carga_31 phases=3 model=1 bus=310 kv=13.8 kw=115     pf=1 
+New load.carga_32 phases=3 model=1 bus=320 kv=13.8 kw=115     pf=1 
+New load.carga_33 phases=3 model=1 bus=330 kv=13.8 kw=115     pf=1 

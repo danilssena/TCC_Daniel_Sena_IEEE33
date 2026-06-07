@@ -1,0 +1,49 @@
+! ======================================================
+! LineCodesReal.dss - Topologia IEEE 33 (13.8 kV)
+! ======================================================
+
+! ==========================================================
+! LINE CODES - PDF (13.8 kV)
+! ==========================================================
+
+! Ramal Principal
+New line.linha_1 phases=3 bus1=10.1.2.3 bus2=20.1.2.3 r1=0.0922 x1=0.0477 units=km
+New line.linha_2 phases=3 bus1=20.1.2.3 bus2=30.1.2.3 r1=0.4930 x1=0.2511 units=km
+! --- LINHA ADICIONADA PARA CORRIGIR DESCONTINUIDADE ---
+New line.linha_3 phases=3 bus1=30.1.2.3 bus2=40.1.2.3 r1=0.3660 x1=0.1864 units=km
+! ------------------------------------------------------
+New line.linha_4 phases=3 bus1=40.1.2.3 bus2=50.1.2.3 r1=0.3811 x1=0.1941 units=km
+New line.linha_5 phases=3 bus1=50.1.2.3 bus2=60.1.2.3 r1=0.8190 x1=0.7070 units=km
+New line.linha_6 phases=3 bus1=60.1.2.3 bus2=70.1.2.3 r1=0.1872 x1=0.6188 units=km
+New line.linha_7 phases=3 bus1=70.1.2.3 bus2=80.1.2.3 r1=1.7114 x1=1.2351 units=km
+New line.linha_8 phases=3 bus1=80.1.2.3 bus2=90.1.2.3 r1=1.0300 x1=0.7400 units=km
+New line.linha_9 phases=3 bus1=90.1.2.3 bus2=100.1.2.3 r1=1.0440 x1=0.7400 units=km
+New line.linha_10 phases=3 bus1=100.1.2.3 bus2=110.1.2.3 r1=0.1966 x1=0.0650 units=km
+New line.linha_11 phases=3 bus1=110.1.2.3 bus2=120.1.2.3 r1=0.3744 x1=0.1238 units=km
+New line.linha_12 phases=3 bus1=120.1.2.3 bus2=130.1.2.3 r1=1.4680 x1=1.1550 units=km
+New line.linha_13 phases=3 bus1=130.1.2.3 bus2=140.1.2.3 r1=0.5416 x1=0.7129 units=km
+New line.linha_14 phases=3 bus1=140.1.2.3 bus2=150.1.2.3 r1=0.5910 x1=0.5260 units=km
+New line.linha_15 phases=3 bus1=150.1.2.3 bus2=160.1.2.3 r1=0.7463 x1=0.5450 units=km
+New line.linha_16 phases=3 bus1=160.1.2.3 bus2=170.1.2.3 r1=1.2890 x1=1.7210 units=km
+New line.linha_17 phases=3 bus1=170.1.2.3 bus2=180.1.2.3 r1=0.7320 x1=0.5740 units=km
+
+! Ramal Lateral 1 (Zona #5: Barra 2 -> 19 -> 22)
+New line.linha_18 phases=3 bus1=20.1.2.3  bus2=190.1.2.3 r1=0.1640 x1=0.1565 units=km
+New line.linha_19 phases=3 bus1=190.1.2.3 bus2=200.1.2.3 r1=1.5042 x1=1.3554 units=km
+New line.linha_20 phases=3 bus1=200.1.2.3 bus2=210.1.2.3 r1=0.4095 x1=0.4784 units=km
+New line.linha_21 phases=3 bus1=210.1.2.3 bus2=220.1.2.3 r1=0.7089 x1=0.9373 units=km
+
+! Ramal Lateral 2 (Zona #2: Barra 3 -> 23 -> 25)
+New line.linha_22 phases=3 bus1=30.1.2.3  bus2=230.1.2.3 r1=0.4512 x1=0.3083 units=km
+New line.linha_23 phases=3 bus1=230.1.2.3 bus2=240.1.2.3 r1=0.8980 x1=0.7091 units=km
+New line.linha_24 phases=3 bus1=240.1.2.3 bus2=250.1.2.3 r1=0.8960 x1=0.7011 units=km
+
+! Ramal Lateral 3 (Zona #6: Barra 6 -> 26 -> 33)
+New line.linha_25 phases=3 bus1=60.1.2.3  bus2=260.1.2.3 r1=0.2030 x1=0.1034 units=km
+New line.linha_26 phases=3 bus1=260.1.2.3 bus2=270.1.2.3 r1=0.2842 x1=0.1447 units=km
+New line.linha_27 phases=3 bus1=270.1.2.3 bus2=280.1.2.3 r1=1.0590 x1=0.9337 units=km
+New line.linha_28 phases=3 bus1=280.1.2.3 bus2=290.1.2.3 r1=0.8042 x1=0.7006 units=km
+New line.linha_29 phases=3 bus1=290.1.2.3 bus2=300.1.2.3 r1=0.5075 x1=0.2585 units=km
+New line.linha_30 phases=3 bus1=300.1.2.3 bus2=310.1.2.3 r1=0.9744 x1=0.9630 units=km
+New line.linha_31 phases=3 bus1=310.1.2.3 bus2=320.1.2.3 r1=0.3105 x1=0.3619 units=km
+New line.linha_32 phases=3 bus1=320.1.2.3 bus2=330.1.2.3 r1=0.3410 x1=0.5302 units=km

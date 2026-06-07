@@ -1,0 +1,17 @@
+=== RESUMO DA EXECUÇÃO - PEN_100 ===
+Master utilizado: D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final\masterH_caso_base_minimo.dss
+Cargas limpas via Python: 33
+Barras com PV criado: 6
+Potência total FV: 3000.000000 kW
+PMpp por barra FV: 500.000000 kW
+kVA por barra FV: 550.000000 kVA
+Monitores de barras criados: 32
+Monitores de PV criados: 6
+Monitores exportados: 40
+
+Critério de seleção das barras FV:
+- seleção das 6 barras de carga com menor corrente de curto-circuito trifásica;
+- barras escolhidas: 130, 140, 150, 160, 170 e 180;
+- divisão igual da potência total FV entre as 6 barras;
+- cargas mantidas harmonicamente limpas via Python;
+- harmônicos associados apenas aos inversores FV.

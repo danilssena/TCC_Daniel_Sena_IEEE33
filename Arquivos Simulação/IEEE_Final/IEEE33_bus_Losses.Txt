@@ -1,0 +1,48 @@
+
+LOSSES REPORT
+
+Power Delivery Element Loss Report
+
+Element                  kW Losses    % of Power   kvar Losses
+
+"Transformer.SUBXF"   0.00018,      0.0     0.00229603
+"Line.LINHA_1"        0.02500,   578.76     0.168113
+"Line.LINHA_2"        0.10638,  4698.60     0.704173
+"Line.LINHA_3"        0.03901,    83.54     0.257782
+"Line.LINHA_4"        0.03803,   141.02     0.25103
+"Line.LINHA_5"        0.07628,   637.84     0.854267
+"Line.LINHA_6"        0.00490,     3.90     0.20762
+"Line.LINHA_7"        0.03783,    25.09     0.350049
+"Line.LINHA_8"        0.01871,    13.80     0.167922
+"Line.LINHA_9"        0.01516,    11.55     0.131329
+"Line.LINHA_10"       0.00220,     1.82     0.000247025
+"Line.LINHA_11"       0.00312,     2.54     0.00401635
+"Line.LINHA_12"       0.00863,     7.02     0.0778723
+"Line.LINHA_13"       0.00206,     1.96     0.0235967
+"Line.LINHA_14"       0.00144,     1.60     0.00433116
+"Line.LINHA_15"       0.00103,     1.41     -0.00311319
+"Line.LINHA_16"       0.00079,      0.0     9.23919E-005
+"Line.LINHA_17"       0.00011,      0.0     -0.012985
+"Line.LINHA_18"       0.00049,      0.0     0.00598086
+"Line.LINHA_19"       0.00252,    14.46     0.0293509
+"Line.LINHA_20"       0.00030,      0.0     0.00443337
+"Line.LINHA_21"       0.00013,      0.0     0.00203405
+"Line.LINHA_22"       0.00857,     6.10     0.0757057
+"Line.LINHA_23"       0.00760,     8.16     0.0773893
+"Line.LINHA_24"       0.00190,     3.95     0.0183848
+"Line.LINHA_25"       0.00369,     2.26     0.0217617
+"Line.LINHA_26"       0.00398,     3.07     0.0235434
+"Line.LINHA_27"       0.01101,    11.28     0.122745
+"Line.LINHA_28"       0.00584,     7.41     0.0618017
+"Line.LINHA_29"       0.00237,     3.90     0.0108178
+"Line.LINHA_30"       0.00257,     6.29     0.0276366
+"Line.LINHA_31"       0.00036,      0.0     -0.00027464
+"Line.LINHA_32"       0.00010,      0.0     -0.00393884
+
+LINE LOSSES=                         0.4 kW
+TRANSFORMER LOSSES=                  0.0 kW
+
+TOTAL LOSSES=                        0.4 kW
+
+TOTAL LOAD POWER =                   2.0 kW
+Percent Losses for Circuit =     21.82 %
