@@ -11,7 +11,7 @@ Ideia central:
     monitores em todas as barras -> Snapshot -> Harmonic -> exportação -> THDv
 
 Observação metodológica:
-- esta mesma rotina de limpeza das cargas deve ser mantida também nos casos com PV;
+- esta mesma rotina de limpeza das cargas sera mantida também nos casos com PV;
 - ou seja, nos cenários com penetração FV, os harmônicos devem vir do PVSystem,
   e não de emissão residual/default das cargas.
 """
