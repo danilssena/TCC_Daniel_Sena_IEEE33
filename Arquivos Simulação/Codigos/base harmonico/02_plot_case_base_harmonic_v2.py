@@ -2,20 +2,7 @@
 r"""
 02_plot_case_base_harmonic.py
 
-FASE 2 - CASO BASE HARMÔNICO
-Gera a figura principal da Fase 2:
-    THDv por barra no caso base harmônico
 
-Decisão metodológica:
-- um único gráfico é suficiente nesta fase, pois o caso base harmônico
-  foi validado como referência limpa (THDv = 0% em todas as barras).
-
-Entradas esperadas:
-- D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final(gpt)\metodologia\02_caso_base_harmonico\02_processados\THDv_barras_caso_base.csv
-
-Saídas:
-- D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final(gpt)\metodologia\02_caso_base_harmonico\03_figuras\figura_01_thdv_caso_base_harmonico.html
-- D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final(gpt)\metodologia\02_caso_base_harmonico\03_figuras\figura_01_thdv_caso_base_harmonico.png
 """
 
 from __future__ import annotations
