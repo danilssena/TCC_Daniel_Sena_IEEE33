@@ -15,11 +15,6 @@ O script:
 - calcula IHDv e IHDi nas ordens 3, 5 e 7;
 - gera arquivos consolidados para a etapa seguinte de gráficos.
 
-Entradas:
-D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final(gpt)\metodologia\03_penetracao_pv\01_dados_brutos_monitores
-
-Saídas:
-D:\Notebook\TCC\MTcc\IEEE33\IEEE_Final(gpt)\metodologia\03_penetracao_pv\02_processados_thd
 """
 
 from __future__ import annotations
